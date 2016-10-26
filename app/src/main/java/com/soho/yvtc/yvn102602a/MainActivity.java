@@ -9,7 +9,7 @@ import android.widget.Spinner;
 public class MainActivity extends AppCompatActivity {
     String fruits[] = {"芭樂", "芒果", "荔枝", "甘蔗", "鳳梨"};
     Spinner spinner;
-    ArrayAdapter<String> adapter;
+    ArrayAdapter<String> adapter;  //泛型 指定 adapter 資料的型態
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
