@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         spinner = (Spinner) findViewById(R.id.spinner);
 
         adapter = new ArrayAdapter<String>(MainActivity.this,
-                android.R.layout.simple_spinner_item,
+                android.R.layout.simple_list_item_1,
                 fruits);
         spinner.setAdapter(adapter);
     }
