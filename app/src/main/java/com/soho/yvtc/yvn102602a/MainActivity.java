@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         spinner = (Spinner) findViewById(R.id.spinner);
 
         adapter = new ArrayAdapter<String>(MainActivity.this,
-                android.R.layout.simple_list_item_1,
+                android.R.layout.simple_list_item_1, // android.R.layout 為SDK內建程式建立的常數
                 fruits);
         spinner.setAdapter(adapter);
     }
